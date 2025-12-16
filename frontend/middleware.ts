@@ -13,7 +13,7 @@ export function middleware(request: NextRequest) {
     "img-src 'self' data: https: blob:; " +
     "font-src 'self' data:; " +
     "connect-src 'self' https://*.googleapis.com https://*.firebaseio.com https://*.cloudfunctions.net https://res.cloudinary.com; " +
-    "frame-src 'self' https://docs.google.com; " +
+    "frame-src 'self' https://docs.google.com https://accounts.google.com; " +
     "object-src 'none'; " +
     "base-uri 'self'; " +
     "form-action 'self'; " +

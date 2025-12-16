@@ -36,12 +36,12 @@ export default function WhatsappPage() {
       {/* Main Content */}
       <main className="relative z-10 max-w-7xl mx-auto px-6 py-12">
         {/* Google Form Embed Section */}
-        <div className="relative min-h-[1600px]">
+        <div className="relative min-h-[1200px]">
           {isFormLoading && <LoadingSpinner />}
           <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSe8v01Zd3jp7M_wlZDA0P0kGv_uG_x31JErPxAFJC-vM1H5wQ/viewform?embedded=true&bgcolor=E4E5E7"
+            src="https://docs.google.com/forms/d/e/1FAIpQLSe8v01Zd3jp7M_wlZDA0P0kGv_uG_x31JErPxAFJC-vM1H5wQ/viewform?embedded=true"
             width="100%"
-            height="1600"
+            height="1168"
             frameBorder="0"
             marginHeight={0}
             marginWidth={0}
