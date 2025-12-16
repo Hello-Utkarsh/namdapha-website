@@ -7,6 +7,7 @@ import Image from 'next/image';
 
 export default function WhatsappPage() {
   const [isFormLoading, setIsFormLoading] = useState(true);
+
   return (
     <div className="min-h-screen bg-[rgb(228,229,231)] text-black relative overflow-hidden">
       {/* Hero Section with Navbar */}
@@ -35,7 +36,6 @@ export default function WhatsappPage() {
 
       {/* Main Content */}
       <main className="relative z-10 max-w-7xl mx-auto px-6 py-12">
-        {/* Google Form Embed Section */}
         <div className="relative min-h-[1200px]">
           {isFormLoading && <LoadingSpinner />}
           <iframe
